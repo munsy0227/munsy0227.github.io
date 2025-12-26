@@ -1,0 +1,25 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: 정보
+    entries:
+      - title: 이 블로그는 munsy0227이(가) 운영합니다.
+      - title: 사용된 테마는 다음과 같습니다.
+      - title: no-style-please
+        url: https://github.com/riggraz/no-style-please
+
+  - title: 모든 게시물
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: 과거 게시물 보기...
+      show_more_url: archive.html
+
+  - title: 포트폴리오
+    post_list:
+      limit: 5
+      category: popopo
+      show_more: true
+      show_more_text: 더 많은 게시물 보기...
+      show_more_url: popopo-archive.html
